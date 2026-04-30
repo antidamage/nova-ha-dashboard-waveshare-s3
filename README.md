@@ -2,6 +2,8 @@
 
 Firmware for a Waveshare ESP32-S3-Touch-LCD-1.69 board used as a small Nova HA Dashboard client.
 
+The nova-ha-dashboard project that this pairs with can be found at: https://github.com/antidamage/nova-ha-dashboard
+
 The sketch connects to WiFi, subscribes to the Nova dashboard event stream, renders the Nova avatar, polls host-load metrics, and lets the watch toggle the `everything` lighting zone with a long press.
 
 ## Hardware
